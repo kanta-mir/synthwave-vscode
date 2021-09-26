@@ -1,0 +1,190 @@
+{
+  "C_Cpp.updateChannel": "Insiders",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "yaml.schemas": {
+    "file:///c%3A/Users/kanta/.vscode/extensions/atlassian.atlascode-2.6.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "githubIssues.queries": [
+    {
+      "label": "My Issues",
+      "query": "default"
+    },
+    {
+      "label": "Created Issues",
+      "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+    }
+  ],
+  "python.languageServer": "Pylance",
+  "workbench.iconTheme": "material-icon-theme",
+  "nativescript.analytics.enabled": true,
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "git.enableSmartCommit": true,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "mssql.connections": [
+    {
+      "server": "192.168.20.38",
+      "database": "",
+      "authenticationType": "SqlLogin",
+      "user": "dev",
+      "password": "",
+      "emptyPasswordInput": false,
+      "savePassword": true,
+      "profileName": "PCONAS MS SQL"
+    }
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "php.validate.executablePath": "D:\\xampp\\php\\php.exe",
+  "angular.experimental-ivy": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.untitled.hint": "hidden",
+  "editor.bracketPairColorization.enabled": true,
+  // todo: color customisation of workbench
+  "workbench.colorCustomizations": {
+    "editor.background": "#050505",
+    "editorBracketMatch.background": "#00000000",
+    "editorBracketMatch.border": "#00000000",
+    // "editorBracketMatch.border": "#ff0000",
+    // "editorBracketMatch.background": "#eeff00"
+  },
+  // change and color you like
+  "editor.tokenColorCustomizations": {
+    // add global theme color overrides for editor here
+    // "comments": #ccc,
+    "textMateRules": [
+      {
+        "scope": ["comment"],
+        "settings": {
+          "foreground": "#747474",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["string"],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["entity.name.tag.html"],
+        "settings": {
+          // "foreground": "#9290ff"
+          "foreground": "#36F9F6"
+        }
+      },
+      {
+        "scope": ["support.type.property-name.css"],
+        "settings": {
+          "foreground": "#22ff22",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["entity.other.attribute-name.class.css"],
+        "settings": {
+          "foreground": "#36F9F6",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["keyword.other.unit"],
+        "settings": {
+          "foreground": "#36F9F6",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["constant.numeric.css"],
+        "settings": {
+          "foreground": "#ff7edb",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["entity.other.attribute-name.id.css"],
+        "settings": {
+          "foreground": "#ff8b39",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["entity.name.tag.css"],
+        "settings": {
+          "foreground": "#ff0000",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["text.html.derivative"],
+        "settings": {
+          "foreground": "#72F1B8",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["entity.other.attribute-name.html"],
+        "settings": {
+          "foreground": "#ff7edb",
+          "fontStyle": "italic"
+        }
+      }
+      
+
+
+    ],
+    "[SynthWave '84]": {
+      // add custome theme colors for only this theme
+      // this property is not allow here change it in workbench.colorCustomizations
+      // "editorBracketMatch.background": "#ffff00",
+    }
+  },
+
+  /* TODO: To customize a specific theme only, use the following syntax:
+    "editor.tokenColorCustomizations": {
+        "[Monokai]": {
+            "comments": "#229977"
+        }
+    }, */
+
+  "liveServer.settings.donotVerifyTags": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "bracket-pair-colorizer-2.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}",
+    "opacity: 0.5"
+  ],
+  "workbench.colorTheme": "SynthWave '84",
+  "[less]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  // "editor.fontFamily": "Fira Code iScript",
+  "editor.fontFamily": "Operator Mono, Consolas, 'Courier New', monosapce",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 18,
+
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "kite.showWelcomeNotificationOnStartup": false,
+  "diffEditor.renderSideBySide": false
+}
